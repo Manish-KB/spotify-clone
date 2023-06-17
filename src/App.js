@@ -24,7 +24,6 @@ function App() {
         spotify.getMe().then(user=>{
           console.log("Human: ",user)
         })
-
       }
       console.log('Token :  ',token);
       
