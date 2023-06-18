@@ -1,7 +1,63 @@
-.body{
+.body {
     height: 100vh;
-    flex:0.8;
-    background:linear-gradient(rgb(91,87,115),rgb(0,0,0,1)) ;
+    flex: 0.8;
+    background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0, 1));
     color: white;
     padding: 30px;
 }
+
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+
+.body_info>img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px black;
+}
+
+.body_infoText {
+    flex: 1;
+}
+
+.body_infoText>p {
+    font-size: 15px;
+}
+
+.body_infoText>h1 {
+    font-size: 50px;
+}
+
+
+.body_icons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.body_icons > .MuiSvgIcon-root{
+margin-right: 20px;
+font-size: 40px;
+color: rgb(200, 200, 200);
+}
+.body_icons> .body_play_large{
+    font-size: 70px;
+    color: #1DB954;
+}
+.body_icons> .MuiSvgIcon-root:hover{
+    color: white;
+}
+
+.body_icons> .body_play_large:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.1);
+    color: #37cd6b;
+}
+
+.body_songs{
+    margin: 20px -30px;
+}
+
