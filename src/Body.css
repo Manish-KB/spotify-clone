@@ -4,8 +4,11 @@
     background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0, 1));
     color: white;
     padding: 30px;
+    overflow-y: overlay ;
 }
-
+.body::-webkit-scrollbar{
+    display: none;
+}
 .body_info {
     display: flex;
     align-items: flex-end;

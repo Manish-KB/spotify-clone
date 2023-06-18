@@ -6,6 +6,7 @@
     align-items: center;
     z-index: 100;
     color: white;
+    border-radius: 10px;
 }
 .songRow:hover{
     background-color:black ;
@@ -14,15 +15,24 @@
 .songRow_info{
     margin-left: 20px;
 }
-.songRow>h1{
-font-size: 16px;
+
+.songRow_Info > h3{
+font-size: 17px;
 }
-.songRow>p{
+.songRow_Info > p{
     margin-top: 3px;
-    font-size: 14px;
+    font-size: 15px;
     color: gray;
+
 }
 .songRow_Album{
     height:40px;
     width: 40px;
+    margin-right: 20px;
 }
+
+/* .albumName{
+    color: aqua;
+    align-items:end;
+    margin-right: 10px;
+} */
