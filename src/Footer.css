@@ -14,6 +14,8 @@
 .footer_icon{
     padding: 10px;
     color: grey;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -40,13 +42,17 @@
     max-width: 300px;
 }
 .footer_center{
-    flex:0.4;
+    /* flex:0.4; */
     padding: 0 100px;
     color: white;
     align-items: center;
     display: flex;
     justify-content: space-between;
     
+
+}
+.center_icons{
+    display: flex;
 }
 .footer_right{
     color: white;
@@ -66,6 +72,18 @@ color:#1DB954;
     color: white;
 }
 
-.play_btn{
-    color:white;
+
+.footer_icon.play_btn {
+    font-size: 50px; 
+    color: white;
+  
+  }
+.center_icons{
+    align-items: center; 
 }
+  .play_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
