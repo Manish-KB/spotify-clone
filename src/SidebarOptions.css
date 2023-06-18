@@ -6,6 +6,8 @@
     cursor: pointer;
     transition: 170ms color ease-in;
     align-items: center;
+    margin: 10px;
+    
 
 }
 
@@ -34,4 +36,9 @@
     margin-top: 10px;
     font-size: 14px;
 color: grey;
+}
+
+.sidebar_image{
+    height: 40px;
+    margin: 10px;
 }

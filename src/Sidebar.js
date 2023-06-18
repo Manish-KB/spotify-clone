@@ -9,7 +9,7 @@ import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
     const[{playlists},dispatch]=useDataLayerValue();
-    
+    console.log("Playlists:",playlists)
     return (
         <div className='sidebar'>
             <img className='sidebar_logo' src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol.jpg"></img>
@@ -20,8 +20,8 @@ function Sidebar() {
             <h4 className='sidebar_title'>Your Library</h4>
             <hr />
             { playlists && playlists.items && playlists.items.map((playlist)=>(
-              <SidebarOption title={playlist.name}  />
-             
+              <SidebarOption title={playlist.name} image={playlist?.images[0]?.url}  />
+          
               
             ))}
 
